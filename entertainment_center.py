@@ -1,4 +1,5 @@
 import media
+import fresh_tomatoes
 
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
@@ -10,4 +11,16 @@ avatar = media.Movie("Avatar",
                      "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_.jpg",
                      "http://www.imdb.com/title/tt0499549/videoplayer/vi531039513?ref_=tt_ov_vi")
 
+americanPsycho = media.Movie("American Psycho",
+                            "Patric Bateman 2 years old who believes in taking care of himself",
+                            "https://upload.wikimedia.org/wikipedia/en/6/63/Americanpsychoposter.jpg",
+                            "https://www.youtube.com/watch?v=RjKNbfA64EE")
+
+'''
+Tester Code:
 print(toy_story.storyline)
+avatar.show_trailer()
+'''
+
+movies = [toy_story, avatar, americanPsycho]
+fresh_tomatoes.open_movies_page(movies)
