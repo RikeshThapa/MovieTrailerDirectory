@@ -9,7 +9,7 @@ toy_story = media.Movie("Toy Story",
 avatar = media.Movie("Avatar",
                      "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
                      "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_.jpg",
-                     "http://www.imdb.com/title/tt0499549/videoplayer/vi531039513?ref_=tt_ov_vi")
+                     "https://www.youtube.com/watch?v=d1_JBMrrYw8")
 
 americanPsycho = media.Movie("American Psycho",
                             "Patric Bateman 2 years old who believes in taking care of himself",

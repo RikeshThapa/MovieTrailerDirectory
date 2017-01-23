@@ -10,22 +10,17 @@ main_page_head = '''
     <meta charset="utf-8">
     <title>Fresh Tomatoes!</title>
 
-    <!-- Updating to the latest Bootstrap 3 -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
-    <!--Font Awesome stuff-->
+    <!--Font Awesome icon import-->
     <script src="https://use.fontawesome.com/a3475b43ba.js"></script>
 
     <style type="text/css" media="screen">
-        html {
-            scroll-behavious: smooth;
-        }
+        /* styling for main header jumbotron*/
         .jumbotron{
             position: relative;
             padding-left:100px;
@@ -36,11 +31,13 @@ main_page_head = '''
             color: white;
             line-height: 1.2;
         }
+        /* styling for fontio button takes you to main page content*/
         .scrollhead{
             position: absolute;
             bottom: 100px;
             margin-left: 45%;
             margin-right: 55%;
+            font-size: 30px;
         }
         .hanging-close {
             position: absolute;
@@ -106,6 +103,7 @@ main_page_head = '''
 # The main page layout and title bar
 main_page_content = '''
   <body>
+    <!-- Head of page -->
     <div class = "jumbotron">
       <h1>Welcome to VidLib</h1>
       <p>Your home for my favourite movies and shows.</p>
