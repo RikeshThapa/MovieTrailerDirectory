@@ -30,18 +30,17 @@ main_page_head = '''
             position: relative;
             padding-left:100px;
             height: 900px;
+            background-color: rgb(0, 181, 236);
+            font-size: 62px;
+            font-weight: 300;
+            color: white;
+            line-height: 1.2;
         }
         .scrollhead{
             position: absolute;
             bottom: 100px;
             margin-left: 45%;
             margin-right: 55%;
-        }
-
-        #trailer .modal-dialog {
-            margin-top: 200px;
-            width: 640px;
-            height: 480px;
         }
         .hanging-close {
             position: absolute;
@@ -116,21 +115,6 @@ main_page_content = '''
           </div>
       </a>
     </div>
-    <!--
-    <div class="video-background">
-        <div class="video-foreground">
-            <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
-    <div id="vidtop-content">
-        <div class="vid-info">
-	        <h1>YouTube Fullscreen Background Demo</h1>
-	        <p>The International Space Station orbits the Earth every 92 minutes, with its crew seeing a sunrise 15 times a day. It exists as a scientific, educational, and engineering platform in low orbit, 330 to 435 kilometres above the Earth.
-            <p>Original timelapse by Riccardo Rossi (ISAA), used under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Raw photos courtesy of http://eol.jsc.nasa.gov/
-	        <a href="/500/Use-YouTube-Videos-as-Fullscreen-Web-Page-Backgrounds">Full article</a>
-        </div>
-    </div>
-    -->
     <!-- Trailer Video Modal -->
     <div class="modal" id="trailer">
       <div class="modal-dialog">
