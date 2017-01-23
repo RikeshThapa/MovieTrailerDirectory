@@ -16,9 +16,10 @@
 
     <!--Font Awesome stuff-->
     <script src="https://use.fontawesome.com/a3475b43ba.js"></script>
-    
+
     <style type="text/css" media="screen">
-        body {
+        html {
+            scroll-behavious: smooth;
         }
         .jumbotron{
             position: relative;
@@ -93,10 +94,6 @@
             $(this).next("div").show("fast", showNext);
           });
         });
-        document.querySelector('.scrollhead').addEventListener('click', function(){
-            document.querySelector('.container').scrollIntoView({ behavior: 'smooth' });
-        });
-
     </script>
 
 </head>
@@ -105,10 +102,27 @@
     <div class = "jumbotron">
       <h1>Welcome to VidLib</h1>
       <p>Your home for my favourite movies and shows.</p>
-      <div class="scrollhead">
-          <i class="fa fa-bath fa-2x scrollhead" aria-hidden="true"></i>
-      </div>
+      <a href="#down">
+          <div class="scrollhead">
+              <i class="fa fa-bath fa-2x" aria-hidden="true"></i>
+          </div>
+      </a>
     </div>
+    <!--
+    <div class="video-background">
+        <div class="video-foreground">
+            <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="vidtop-content">
+        <div class="vid-info">
+	        <h1>YouTube Fullscreen Background Demo</h1>
+	        <p>The International Space Station orbits the Earth every 92 minutes, with its crew seeing a sunrise 15 times a day. It exists as a scientific, educational, and engineering platform in low orbit, 330 to 435 kilometres above the Earth.
+            <p>Original timelapse by Riccardo Rossi (ISAA), used under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Raw photos courtesy of http://eol.jsc.nasa.gov/
+	        <a href="/500/Use-YouTube-Videos-as-Fullscreen-Web-Page-Backgrounds">Full article</a>
+        </div>
+    </div>
+    -->
     <!-- Trailer Video Modal -->
     <div class="modal" id="trailer">
       <div class="modal-dialog">
@@ -123,17 +137,6 @@
     </div>
 
     <!-- Main Page Content -->
-    <!--
-    <div class="container">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    -->
     <div class="container" id="down">
       
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="KYz2wyBy3kc" data-toggle="modal" data-target="#trailer">
